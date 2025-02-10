@@ -57,7 +57,7 @@ test('Consultando as reservas cadastradas com base em um ID validando apenas os 
 })
 
 
-test('Cadastrando uma reserva', async ({ request }) => {
+test('Cadastrando uma reserva @regressivo', async ({ request }) => {
 
     const response = await request.post('booking', {
         data: {
