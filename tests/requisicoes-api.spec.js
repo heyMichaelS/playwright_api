@@ -85,7 +85,7 @@ test('Cadastrando uma reserva', async ({ request }) => {
 })
 
 
-test('Gerando um token', async ({ request }) => {
+test('Gerando um token @regressivo', async ({ request }) => {
 
     const response = await request.post('/auth', {
         data: {
